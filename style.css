@@ -1,4 +1,12 @@
-
+html{
+    box-sizing: border-box;
+    /*1rem = 10px*/
+   
+}
+body{
+    
+    overflow-x: hidden;
+}
 .header{
     display: flex;
     max-width: 100%;

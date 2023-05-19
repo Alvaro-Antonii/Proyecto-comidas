@@ -18,14 +18,20 @@
       <img src="./img/ts.png" class="img-ca " width="120" height="60">
       <!-- <h1 class="text" style="color: #323230;" >Thaiscript </h1> -->
       <div class="row">
-        <div class="input-group">
-          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-            aria-describedby="search-addon" id="buscador" />
-          <button type="button" class="btn btn-outline-primary">search</button>
+        <div class="col">
+          <div class="input-group">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+              aria-describedby="search-addon" id="buscador" />
+            <button type="button" class="btn btn-outline-primary">search</button>
+          </div>
         </div>
+        
       </div>
       <div class="row">
+        <div class="col">
           <button class="botCarrito bg-dark">🛒<span id="contador" class="numCarrito"></span></button>
+        </div>
+          
       </div>
       
     </div>
@@ -98,17 +104,16 @@
     <div class="row">
     
       <div class="btn-group" role="group" aria-label="Basic example">
-        <button class="btn btn-outline-warning" id="todo"><a href="#">Todo</a> </button>
-        <button class="btn btn-outline-warning" id="principal"><a href="#corteP">Pricipal</a> </button>
-        <button class="btn btn-outline-warning" id="guarnicion"> <a href="#corteG">Guarnición</a>
-        </button>
+        <button class="btn btn-outline-warning" id="todo">Todo</button>
+        <button class="btn btn-outline-warning" id="principal">Principal </button>
+        <button class="btn btn-outline-warning" id="guarnicion"> Guarnición</button>
       </div>
     </div>
   
   </header>
 
-  <div class="container text-center">
-    <h1 id="nav">Menú</h1>
+  <div class="container text-center" id="menu">
+    <h1 id="nav">Menú <span >Completo</span></h1>
 
 
 
@@ -126,26 +131,10 @@
 
       </div>
     </div>
-    <!----Principal------>
-    <div class="row mt-3" id="contenedor-principal">
-      <h2>Platos principales</h2>
-    </div>
-
-    <div class="container" id="corteG" >
-      <div class="corteguar">
-
-      </div>
-    </div>
-    <!------------------->
-    <!------Guarnición---------->
-    <div class="row mt-3" id="contenedor-guarnicion">
-      <h2>Guarniciones</h2>
-    </div>
-    <!--------------------->
     <!---------Cardsss----------->
     <template id="template-productos">
 
-      <div class="col-12  mb-3">
+      <div class="col-12  col-md-12 mb-3">
         <li class="articulo">
           <div class="card mt-3">
             <div class="row">
@@ -201,7 +190,7 @@
 
     <!---Cards vertical-->
 
-    <template id="template-vert">
+    <!-- <template id="template-vert">
 
       <div class="col-12 col-md-4 mb-3">
 
@@ -248,7 +237,7 @@
 
 
       </div>
-    </template>
+    </template> -->
 
 
 
