@@ -33,3 +33,8 @@ a:link, a:visited, a:active{
     background-image: url("./img/thaiscript.png");
 }
 
+.carousel > img{
+    object-fit: scale-down;
+    height: 50vh;
+    width: 100%;
+}
