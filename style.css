@@ -50,3 +50,58 @@ a:link, a:visited, a:active{
     height: 50vh;
     width: 100%;
 }
+.botComprar{
+    background-color: #323230;
+    color: #ffd632;
+    border-radius: 5px;
+}
+.botComprar:hover{
+    color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px #ffd632;
+  transition: all 0.2s ease;
+}
+#aviso{
+    border-radius: 3px;
+     border: solid #ffd632;
+     display:none; /* dejar en "" para que funcione segùn la hora*/
+}
+
+
+
+.carrito{
+    width: 80%;
+    background-color: #323230;
+    border-radius:15px;
+    color: aliceblue;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+td, th {
+    color: #ffd632
+}
+
+.botCarrito{
+    font-size: 30px;
+    text-decoration: none;
+    border-radius:15px;
+    outline:none;
+}
+
+.numCarrito{
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 120px;
+    position: absolute;
+    color: aliceblue;
+    border-radius:50%;
+    background-color: red;
+    display:none
+}
