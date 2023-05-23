@@ -225,6 +225,7 @@ const asignarBotones = (data) =>{
              arrayProducto[producto.id] = {...producto};
 
              pintarCarrito()
+             sumCont()
         })
     })
 }
