@@ -97,8 +97,8 @@ td, th {
 .numCarrito{
     font-size: 12px;
     padding: 4px;
-    top: 37px;
-    right: 20px;
+    /* top: 37px;
+    right: 20px; */
     position: absolute;
     color: aliceblue;
     border-radius:50%;

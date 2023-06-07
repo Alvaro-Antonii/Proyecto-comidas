@@ -94,6 +94,7 @@ const pintar = data =>{
         fragment.appendChild(clone)
     });
     contenedorPro.appendChild(fragment)
+    
 }
 /////////////////////////////////////////////////////////
 
@@ -105,6 +106,7 @@ botTodo.addEventListener("click",()=>{
     limpiarHtml(contenedorPro);
     pintar(data1);
     menu.innerHTML = "Completo"
+    asignarBotones(data1)
 })
 
 const botPri = document.querySelector("#principal")
@@ -114,6 +116,7 @@ botPri.addEventListener("click",()=>{
     tipo = 1;
     pintarSele(data1);
     menu.innerHTML = "Principal"
+    asignarBotones(data1)
 
 })
 
@@ -123,6 +126,7 @@ botGuar.addEventListener("click",()=>{
     tipo = 2;
     pintarSele(data1)
     menu.innerHTML = "Guarniciones"
+    asignarBotones(data1)
 })
 /////////////////////////////////////////////////////////////
 
