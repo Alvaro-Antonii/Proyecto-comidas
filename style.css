@@ -17,6 +17,18 @@ body{
 .nav{
     position: fixed;
 }
+
+@media (max-width: 640px) {
+    .container-fluid .c{
+        width: 25vh;
+        /* display: none; */
+    }
+  }
+
+#colorMenu{
+    width: 100%;
+    background-color:#ffd632 ;
+}
 #template-productos{
     display:none;
 }
